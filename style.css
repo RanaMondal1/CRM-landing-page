@@ -1,0 +1,156 @@
+/* uiversal style */
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+/* repeatative styles  */
+a {
+  text-decoration: none;
+  color: black;
+}
+button {
+  background-color: #0269e6;
+  color: #ffffff;
+  border: 1px solid #0269e6;
+}
+.content-center {
+  width: 85%;
+  margin: auto;
+  padding-bottom: 2%;
+}
+
+/* header style starts  */
+/* nav style starts */
+header {
+  width: 100%;
+  background-color: #fbf7e9;
+  padding-bottom: 3%;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+.nav-logo img {
+  padding-right: 4px;
+}
+.navbar {
+  padding-top: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.nav-button {
+  padding: 1% 3%;
+}
+/* nav style ends  */
+.header-banner {
+  display: flex;
+  justify-content: space-between;
+}
+.header-para * {
+  padding-bottom: 18px;
+}
+.header-para h1 {
+  font-family: Georgia;
+  color: #124a2c;
+  font-weight: 500;
+  font-size: 70px;
+}
+.header-para p {
+  word-spacing: 2px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1cm;
+}
+.header-para-btn {
+  padding: 3% 7%;
+}
+.header-para-psmall {
+  font-size: 15px;
+  padding-top: 4%;
+}
+.m-stat {
+  position: absolute;
+  right: 80px;
+  bottom: 52px;
+}
+/* header style ends.  */
+
+/* feature section starts  */
+/* repatative style for all section  */
+section {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.features {
+  background-color: #fff;
+}
+.features-heading {
+  text-align: center;
+  color: #124a2c;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: 500;
+  padding-bottom: 3%;
+}
+.feature-images {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.feature-images h6 {
+  text-align: center;
+  color: #124a2c;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.feature-images p {
+  text-align: center;
+}
+/* feature section ends  */
+
+/* how it works section starts  */
+.how-it-works {
+  background-color: #fbf7e9;
+}
+.how-it-works-heading {
+  text-align: center;
+  color: #124a2c;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: 500;
+  padding-bottom: 3%;
+}
+.how-it-works-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* how it works seection ends  */
+
+/* more about us starts  */
+.more-about-us{
+  background-color: #124a2c;
+}
+.more-about-us-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* more about us ends  */
+
+/* footer style starts  */
+.footer{
+  background-color: #FBF7E9;
+}
